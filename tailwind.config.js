@@ -17,7 +17,7 @@ module.exports = {
           '800': '#131305',  
           '900': '#000000'
         },
-        white: {
+        floralwhite: {
           DEFAULT: "#FDF8ED",
         },
       },
