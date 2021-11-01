@@ -26,13 +26,13 @@ export default function User() {
         leave="transition ease-in duration-75"
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95">
-        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-md py-1 bg-floralwhite focus:outline-none">
+        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-md py-1 bg-citron-10 focus:outline-none">
           <Menu.Item>
             {({ active }) => (
               <a
                 href="#"
                 className={classNames(
-                  active ? "bg-floralwhite" : "",
+                  active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Your Profile
@@ -44,7 +44,7 @@ export default function User() {
               <a
                 href="#"
                 className={classNames(
-                  active ? "bg-floralwhite" : "",
+                  active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Settings
@@ -56,7 +56,7 @@ export default function User() {
               <a
                 href="#"
                 className={classNames(
-                  active ? "bg-floralwhite" : "",
+                  active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Sign out

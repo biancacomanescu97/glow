@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         citron: {  
           DEFAULT: '#91972A',  
+          '10': "#FAFBEF",  
           '50': '#DEE297',  
           '100': '#D9DE87',  
           '200': '#CFD567',  
