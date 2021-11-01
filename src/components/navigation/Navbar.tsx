@@ -1,8 +1,7 @@
-import { Fragment } from "react";
-import { Disclosure, Menu, Transition } from "@headlessui/react";
+import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import User from "./User";
+import User from "./user/User";
 
 type NavigationItem = {
   name: string;
