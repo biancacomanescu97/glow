@@ -1,5 +1,6 @@
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Link } from "react-router-dom";
 
 import User from "./user/User";
 
@@ -10,8 +11,8 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
-  { name: "Explore", href: "#", current: false },
-  { name: "Routine", href: "#", current: false },
+  { name: "Explore", href: "/Explore", current: false },
+  { name: "Routine", href: "/Routine", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -38,19 +39,19 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex w-auto items-center text-xl font-bold text-floralwhite rounded-md">
-                  <a className="block lg:hidden" href="#">
+                  <a className="block lg:hidden" href="/">
                     GLOW
                   </a>
-                  <a className="hidden lg:block" href="#">
+                  <a className="hidden lg:block" href="/">
                     GLOW
                   </a>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigationItems.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
-                        href={item.href}
+                        to={item.href}
                         className={classNames(
                           item.current
                             ? "bg-citron-700 text-floralwhite"
@@ -59,7 +60,7 @@ export default function Navbar() {
                         )}
                         aria-current={item.current ? "page" : undefined}>
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>

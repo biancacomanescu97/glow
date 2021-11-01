@@ -1,9 +1,17 @@
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/navigation/Navbar";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route exact path="/">Hello Glow</Route>
+          <Route path="/explore">Explore Glow</Route>
+          <Route path="/routine">My routine</Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
