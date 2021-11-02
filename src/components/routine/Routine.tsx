@@ -60,8 +60,8 @@ export default function Routine() {
                 my skin and it feels quite harsh. Also, they are soaking up a lot of the
                 product.
               </div>    
-              </div>
             </div>
+          </div>
         </div>
       </div>
     </main>
