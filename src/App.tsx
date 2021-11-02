@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Explore from "./components/explore/Explore";
 import Navbar from "./components/navigation/Navbar";
 import Routine from "./components/routine/Routine";
 
@@ -9,7 +10,9 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">Hello Glow</Route>
-          <Route path="/explore">Explore Glow</Route>
+          <Route path="/explore">
+            <Explore />
+          </Route>
           <Route path="/routine">
             <Routine />
           </Route>
