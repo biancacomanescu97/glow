@@ -1,7 +1,8 @@
-import Navbar from "./Navbar";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Brands from "./Brands";
-import Ingredients from "./Ingredients";
+
+import Navbar from "./Navbar";
+import Brands from "./brands/Brands";
+import Ingredients from "./ingredients/Ingredients";
 
 export default function Explore() {
   return (

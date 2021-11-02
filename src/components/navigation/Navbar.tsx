@@ -11,7 +11,7 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
-  { name: "Explore", href: "/explore", current: false },
+  { name: "Explore", href: "/explore/brands", current: false },
   { name: "Routine", href: "/routine", current: false },
 ];
 
@@ -36,7 +36,10 @@ export default function Navbar() {
                         {open ? (
                           <XIcon className="block h-6 w-6" aria-hidden="true" />
                         ) : (
-                          <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                          <MenuIcon
+                            className="block h-6 w-6"
+                            aria-hidden="true"
+                          />
                         )}
                       </Disclosure.Button>
                     </div>
@@ -56,8 +59,8 @@ export default function Navbar() {
                         </Link>
                       </div>
                       <div className="hidden sm:block sm:ml-6">
-                      <div className="flex space-x-4">
-                       {navigationItems.map((item) => (
+                        <div className="flex space-x-4">
+                          {navigationItems.map((item) => (
                             <Link
                               key={item.name}
                               to={item.href}
