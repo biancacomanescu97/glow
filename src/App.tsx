@@ -10,6 +10,8 @@ function App() {
           <Route exact path="/">Hello Glow</Route>
           <Route path="/explore">Explore Glow</Route>
           <Route path="/routine">My routine</Route>
+          <Route path="/user/profile">User Profile</Route>
+          <Route path="/user/settings">Settings</Route>
         </Switch>
       </Router>
     </div>

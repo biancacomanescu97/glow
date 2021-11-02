@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
+import { Link } from "react-router-dom";
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -29,38 +30,38 @@ export default function User() {
         <Menu.Items className="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-md py-1 bg-citron-10 focus:outline-none">
           <Menu.Item>
             {({ active }) => (
-              <a
-                href="#"
+              <Link
+                to="/user/profile"
                 className={classNames(
                   active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Your Profile
-              </a>
+              </Link>
             )}
           </Menu.Item>
           <Menu.Item>
             {({ active }) => (
-              <a
-                href="#"
+              <Link
+                to="/user/settings"
                 className={classNames(
                   active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Settings
-              </a>
+              </Link>
             )}
           </Menu.Item>
           <Menu.Item>
             {({ active }) => (
-              <a
-                href="#"
+              <Link
+                to="#"
                 className={classNames(
                   active ? "bg-citron-10" : "",
                   "block px-4 py-2 text-sm text-citron-700 hover:text-citron"
                 )}>
                 Sign out
-              </a>
+              </Link>
             )}
           </Menu.Item>
         </Menu.Items>

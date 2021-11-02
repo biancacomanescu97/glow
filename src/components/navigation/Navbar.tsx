@@ -11,8 +11,8 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
-  { name: "Explore", href: "/Explore", current: false },
-  { name: "Routine", href: "/Routine", current: false },
+  { name: "Explore", href: "/explore", current: false },
+  { name: "Routine", href: "/routine", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -39,12 +39,18 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex w-auto items-center text-xl font-bold text-floralwhite rounded-md">
-                  <a className="block lg:hidden" href="/">
+                  <Link
+                    className="hidden lg:block"
+                    to="/"
+                    aria-current={true ? "page" : undefined}>
                     GLOW
-                  </a>
-                  <a className="hidden lg:block" href="/">
+                  </Link>
+                  <Link
+                    className="block lg:hidden"
+                    to="/"
+                    aria-current={true ? "page" : undefined}>
                     GLOW
-                  </a>
+                  </Link>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
@@ -75,10 +81,9 @@ export default function Navbar() {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigationItems.map((item) => (
-                <Disclosure.Button
+                <Link
                   key={item.name}
-                  as="a"
-                  href={item.href}
+                  to={item.href}
                   className={classNames(
                     item.current
                       ? "bg-citron-900 text-floralwhite"
@@ -87,7 +92,7 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? "page" : undefined}>
                   {item.name}
-                </Disclosure.Button>
+                </Link>
               ))}
             </div>
           </Disclosure.Panel>
