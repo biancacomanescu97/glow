@@ -19,7 +19,7 @@ export default function Example() {
             brandIdx === brands.length - 1
               ? "rounded-bl-lg rounded-br-lg sm:rounded-bl-none"
               : "",
-            "relative group bg-white p-6 hover:bg-citron-10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-citron-500"
+            "relative group bg-floralwhite-100 p-6 hover:bg-citron-10 focus-within:ring-2 focus-within:ring-inset focus-within:ring-citron-500"
           )}>
           <div className="mt-4">
             <h3 className="text-lg font-medium text-citron-700">

@@ -2,9 +2,9 @@ export default function Routine() {
   return (
     <main className="-mt-32">
       <div className="max-w-full mx-auto pb-12 px-4 sm:px-6  lg:px-8">
-        <div className="bg-citron-10 rounded-lg shadow px-5 py-4 sm:px-6">
+        <div className="bg-floralwhite-400 rounded-lg shadow px-5 py-4 sm:px-6">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-justify text-sm font-medium">
-            <div className="px-4 py-5 sm:px-6 bg-white shadow-md rounded-lg">
+            <div className="px-4 py-5 sm:px-6 bg-floralwhite-100 shadow-md rounded-lg">
               Skin type: dry; some oiler tendencies (my T-zone and my nose) in
               the summertime.
               <div className="px-4 py-2 sm:px-6">

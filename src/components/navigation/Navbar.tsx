@@ -44,7 +44,7 @@ export default function Navbar() {
                       </Disclosure.Button>
                     </div>
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                      <div className="flex-shrink-0 flex w-auto items-center text-xl font-bold text-floralwhite rounded-md">
+                      <div className="flex-shrink-0 flex w-auto items-center text-xl font-bold text-floralwhite-100 rounded-md">
                         <Link
                           className="hidden lg:block"
                           to="/"

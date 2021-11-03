@@ -4,7 +4,7 @@ export default function Ingredients() {
   return (
     <ul role="list" className="mt-4 space-y-3">
       {ingredients.map((ingredient) => (
-        <li className="relative bg-white shadow px-4 py-4 sm:px-6 sm:rounded-md">
+        <li className="relative bg-floralwhite-200 shadow px-4 py-4 sm:px-6 sm:rounded-md">
           <h3 className="text-md font-medium text-citron-700">
             <a href={ingredient.href} className="hover:text-citron-400">
               {ingredient.name}
