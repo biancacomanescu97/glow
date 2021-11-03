@@ -6,9 +6,9 @@ import Ingredients from "./ingredients/Ingredients";
 
 export default function Explore() {
   return (
-    <main className="-mt-32">
+    <main className="">
       <div className="max-w-full mx-auto pb-12 px-4 sm:px-6 lg:px-8">
-        <div className="bg-floralwhite-400 rounded-lg shadow py-4 sm:px-6">
+        <div className="bg-citron rounded-lg  py-4 sm:px-6">
           <div className="container mx-auto sm:px-6 lg:px-8 text-justify text-sm font-medium">
             <Router>
             <Navbar />
