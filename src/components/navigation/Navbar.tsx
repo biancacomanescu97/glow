@@ -40,7 +40,7 @@ export default function Navbar() {
               </div>
 
               {/* Header title */}
-              <div className="flex flex-auto items-center justify-center text-2xl font-bold text-pine-200 sm:items-stretch sm:justify-start">
+              <div className="flex flex-auto items-center justify-center text-2xl font-bold text-pine-300 sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <Link
                     className="block lg:hidden w-auto"
@@ -66,9 +66,9 @@ export default function Navbar() {
                       to={item.href}
                       className={classNames(
                         item.current
-                          ? "bg-citron-700 text-pine-200"
-                          : "text-pine-200 hover:bg-citron-400 hover:text-pine-200",
-                        "px-3 py-2 rounded-md text-sm font-medium"
+                          ? "text-pine-200"
+                          : "text-pine-300 transition duration-500 ease-in-out border-b border-floralwhite-100 hover:border-pine-100",
+                        "px-5 py-2 text-sm font-medium"
                       )}
                       aria-current={item.current ? "page" : undefined}>
                       {item.name}
