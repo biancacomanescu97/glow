@@ -1,36 +1,21 @@
 export default function Home() {
   return (
-    <div className="block">
+    <main className="block z-10">
       <div className="relative">
         <div className="relative inset-0 overflow-hidden">
           <img
             className="object-cover h-screen w-screen"
-            src="/assets/img/bg2-warm.jpg"
+            src="/assets/img/bg-floralwhite-100.jpg"
             alt="Background image"
           />
         </div>
-        <div className="absolute top-64 right-32 text-pine-200 text-right italic subpixel-antialiased tracking-wide font-thin">
-          <div className="">
-            <p>Life is pretty complicated at times</p>
-            <p>Skincare doesn't have to be</p>
+        <div className="animate-pulse-bg-once absolute top-64 right-32 text-pine-200 text-right italic tracking-wide font-thin">
+          <div className="">Life is pretty complicated at times</div>
+          <div className="animate-pulse-bg-once">
+            Skincare doesn't have to be
           </div>
         </div>
       </div>
-      <div className="relative text-pine-200">
-        <div className="relative inset-0 overflow-hidden">
-          <img
-            className="object-cover h-screen w-screen"
-            src="/assets/img/bg2-warm.jpg"
-            alt="Background image"
-          />
-        </div>
-        <div className="absolute top-64 right-32 text-right">
-          <div className="">
-            <p>Life is pretty complicated at times</p>
-            <p>Skincare doesn't have to be</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </main>
   );
 }

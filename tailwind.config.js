@@ -3,6 +3,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      animation: {
+        "pulse-bg-once": "pulse-bg-once 3s ease-in forwards",
+      },
+      keyframes: {
+        "pulse-bg-once": {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
+      },
+      transitionDelay: {
+        5000: "5000ms",
+      },
       colors: {
         citron: {
           DEFAULT: "#91972A",
@@ -31,18 +43,18 @@ module.exports = {
           800: "#CFD567",
           900: "#CAD057",
         },
-        pine: {  
-          DEFAULT: '#1D2A18',  
-          '50': '#4F7342',  
-          '100': '#4A6B3D',  
-          '200': '#3F5B34',  
-          '300': '#334A2B',  
-          '400': '#283A21',  
-          '500': '#1D2A18',  
-          '600': '#162012',  
-          '700': '#10170D',  
-          '800': '#090D07',  
-          '900': '#020302'
+        pine: {
+          DEFAULT: "#1D2A18",
+          50: "#4F7342",
+          100: "#4A6B3D",
+          200: "#3F5B34",
+          300: "#334A2B",
+          400: "#283A21",
+          500: "#1D2A18",
+          600: "#162012",
+          700: "#10170D",
+          800: "#090D07",
+          900: "#020302",
         },
       },
     },
