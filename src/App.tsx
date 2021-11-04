@@ -3,6 +3,7 @@ import Navbar from "./components/navigation/Navbar";
 import Home from "./components/home/Home";
 import Explore from "./components/explore/Explore";
 import Routine from "./components/routine/Routine";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/user/profile">User Profile</Route>
         <Route path="/user/settings">Settings</Route>
       </Switch>
+      <Footer />
     </Router>
 );
 }

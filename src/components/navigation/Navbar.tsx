@@ -58,8 +58,8 @@ export default function Navbar() {
               </div>
 
               {/* Navitagation items */}
-              <div className="hidden items-center justify-center sm:block sm:ml-6">
-                <div className="flex flex-1">
+              <div className="flex flex-1 items-center justify-center">
+                <div className="hidden sm:block sm:ml-6">
                   {navigationItems.map((item) => (
                     <Link
                       key={item.name}
