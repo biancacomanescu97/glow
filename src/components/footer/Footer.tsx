@@ -27,7 +27,7 @@ export default function Footer() {
             className={classNames(
               item.current
                 ? "text-pine-200"
-                : "text-floralwhite-100 hover:text-pine-100 px-10 py-2"
+                : "text-floralwhite-100 transition duration-500 ease-in-out hover:text-pine-100 px-10 py-2"
             )}
             aria-current={item.current ? "page" : undefined}>
             {item.name}
@@ -41,21 +41,21 @@ export default function Footer() {
         <div className="flex flex-1 justify-end">
           <a href="https://github.com/biancacomanescu97" target="_blank">
             <img
-              className="h-8 w-8 rounded-full object-cover p-1 mx-4 border border-pine hover:border-floralwhite-100"
+              className="h-8 w-8 rounded-full object-cover p-1 mx-4 transition duration-500 ease-in-out border border-pine hover:border-floralwhite-100"
               src="/assets/icon/github.png"
               alt="User profile"
             />
           </a>
           <a href="https://www.instagram.com/bianca.coms" target="_blank">
             <img
-              className="h-8 w-8 rounded-lg object-cover p-1 mx-4 border border-pine hover:border-floralwhite-100"
+              className="h-8 w-8 rounded-lg object-cover p-1 mx-4 transition duration-500 ease-in-out border border-pine hover:border-floralwhite-100"
               src="/assets/icon/instagram.png"
               alt="User profile"
             />
           </a>
           <a href="https://www.linkedin.com/in/bianca-comanescu/" target="_blank">
             <img
-              className="h-8 w-8 rounded-lg object-cover p-1 mx-4 border border-pine hover:border-floralwhite-100"
+              className="h-8 w-8 rounded-lg object-cover p-1 mx-4 transition duration-500 ease-in-out border border-pine hover:border-floralwhite-100"
               src="/assets/icon/linkedin.png"
               alt="User profile"
             />
