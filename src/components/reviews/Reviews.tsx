@@ -1,11 +1,70 @@
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  useRouteMatch,
+} from "react-router-dom";
+import Navbar from "./Navbar";
+import Favourites from "./brands/Favourites";
+import BeautyOfJoseon from "./brands/BeautyOfJoseon";
+import Cosrx from "./brands/Cosrx";
+import Fresh from "./brands/Fresh";
+import HaruHaru from "./brands/HaruHaru";
+import ImFrom from "./brands/ImFrom";
+import Laneige from "./brands/Laneige";
+import MakePrem from "./brands/MakePrem";
+import PaulasChoice from "./brands/PaulasChoice";
+import Sioris from "./brands/Sioris";
+import TheInkeyList from "./brands/TheInkeyList";
+import TheOrdinary from "./brands/TheOrdinary";
+
 export default function Reviews() {
+  let match = useRouteMatch();
+
   return (
     <main className="w-screen h-screen">
-      <div className="max-w-full mx-auto pb-12 px-4 sm:px-6 lg:px-8">
-        <div className="rounded-lg  py-4 sm:px-6">
-          <div className="container mx-auto sm:px-6 lg:px-8 text-justify text-sm font-medium">
-          </div>
-        </div>
+      <div className="flex flex-auto">
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path={`${match.path}/fav`}>
+              <Favourites />
+            </Route>
+            <Route path={`${match.path}/joseon`}>
+              <BeautyOfJoseon />
+            </Route>
+            <Route path={`${match.path}/cosrx`}>
+              <Cosrx />
+            </Route>
+            <Route path={`${match.path}/fresh`}>
+              <Fresh />
+            </Route>
+            <Route path={`${match.path}/haruharu`}>
+              <HaruHaru />
+            </Route>
+            <Route path={`${match.path}/imfrom`}>
+              <ImFrom />
+            </Route>
+            <Route path={`${match.path}/laneige`}>
+              <Laneige />
+            </Route>
+            <Route path={`${match.path}/makeprem`}>
+              <MakePrem />
+            </Route>
+            <Route path={`${match.path}/paulaschoice`}>
+              <PaulasChoice />
+            </Route>
+            <Route path={`${match.path}/sioris`}>
+              <Sioris />
+            </Route>
+            <Route path={`${match.path}/theinkeylist`}>
+              <TheInkeyList />
+            </Route>
+            <Route path={`${match.path}/theordinary`}>
+              <TheOrdinary />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </main>
   );
