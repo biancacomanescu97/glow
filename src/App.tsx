@@ -4,6 +4,7 @@ import Home from "./components/home/Home";
 import Explore from "./components/explore/Explore";
 import Routine from "./components/routine/Routine";
 import Footer from "./components/footer/Footer";
+import Reviews from "./components/reviews/Reviews";
 
 function App() {
   return (
@@ -14,11 +15,11 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/explore/brands">
+          <Route path="/explore">
             <Explore />
           </Route>
-          <Route path="/explore/ingredients">
-            <Explore />
+          <Route path="/reviews">
+            <Reviews />
           </Route>
           <Route path="/routine">
             <Routine />

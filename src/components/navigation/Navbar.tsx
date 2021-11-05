@@ -11,8 +11,8 @@ type NavigationItem = {
 };
 
 const navigationItems: NavigationItem[] = [
-  { name: "Explore", href: "/explore/brands", current: false },
-  { name: "Reviews", href: "/routine", current: false },
+  { name: "Explore", href: "/explore", current: false },
+  { name: "Reviews", href: "/reviews", current: false },
   { name: "Routine", href: "/routine", current: false },
 ];
 
@@ -22,7 +22,7 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="header" className="fixed z-10 top-0 right-0 left-0">
+    <Disclosure as="header" className="z-10 top-0 right-0 left-0">
       {({ open }) => (
         <>
           <div className="relative z-2 w-full px-8 py-4 mx-auto sm:px-6 lg:px-8">
@@ -54,7 +54,7 @@ export default function Navbar() {
                     aria-current={true ? "page" : undefined}>
                     GLOW
                   </Link>
-                  </div>
+                </div>
               </div>
 
               {/* Navitagation items */}
