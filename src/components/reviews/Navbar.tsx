@@ -5,6 +5,8 @@ type NavigationItem = {
   href: string;
 };
 
+const reviewsPath = "/reviews/";
+
 const navigationItems: NavigationItem[] = [
   { name: "All time favourites", href: "fav"},
   { name: "Beauty of Joseon", href: "joseon"},
@@ -34,7 +36,7 @@ export default function Navbar() {
             {navigationItems.map((item) => (
               <Link
                 key={item.name}
-                to={item.href}
+                to={`${reviewsPath}${item.href}`}
                 className="flex py-2 text-pine text-sm
                   transition duration-500 ease-out transform hover:text-pine-200 hover:translate-x-3">
                 {item.name}
