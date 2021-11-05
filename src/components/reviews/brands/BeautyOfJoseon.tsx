@@ -1,8 +1,8 @@
 export default function BeautyOfJoseon() {
   return (
-    <div className="hidden md:flex md:flex-col md:px-6 md:py-20 lg:px-8 lg:py-28">
-      <div className="flex flex-col flex-grow">
-        Beauty Of Joseon
+    <div className="flex-1 md:px-6 md:py-20 lg:px-8 lg:py-16">
+      <div className="flex align-middle justify-center ">
+        <h1>Beauty of Joseon</h1>
       </div>
     </div>
   );

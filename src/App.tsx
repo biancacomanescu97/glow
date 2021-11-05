@@ -10,24 +10,22 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="relative overflow-x-hidden">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/explore">
-            <Explore />
-          </Route>
-          <Route path="/reviews">
-            <Reviews />
-          </Route>
-          <Route path="/routine">
-            <Routine />
-          </Route>
-          <Route path="/user/profile">User Profile</Route>
-          <Route path="/user/settings">Settings</Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/explore">
+          <Explore />
+        </Route>
+        <Route path="/reviews">
+          <Reviews />
+        </Route>
+        <Route path="/routine">
+          <Routine />
+        </Route>
+        <Route path="/user/profile">User Profile</Route>
+        <Route path="/user/settings">Settings</Route>
+      </Switch>
       <Footer />
     </Router>
   );

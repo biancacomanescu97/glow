@@ -22,50 +22,48 @@ export default function Reviews() {
   let match = useRouteMatch();
 
   return (
-    <main className="w-screen h-screen">
-      <div className="flex flex-auto">
-        <Router>
-          <Navbar />
-          <Switch>
-            <Route path={`${match.path}/fav`}>
-              <Favourites />
-            </Route>
-            <Route path={`${match.path}/joseon`}>
-              <BeautyOfJoseon />
-            </Route>
-            <Route path={`${match.path}/cosrx`}>
-              <Cosrx />
-            </Route>
-            <Route path={`${match.path}/fresh`}>
-              <Fresh />
-            </Route>
-            <Route path={`${match.path}/haruharu`}>
-              <HaruHaru />
-            </Route>
-            <Route path={`${match.path}/imfrom`}>
-              <ImFrom />
-            </Route>
-            <Route path={`${match.path}/laneige`}>
-              <Laneige />
-            </Route>
-            <Route path={`${match.path}/makeprem`}>
-              <MakePrem />
-            </Route>
-            <Route path={`${match.path}/paulaschoice`}>
-              <PaulasChoice />
-            </Route>
-            <Route path={`${match.path}/sioris`}>
-              <Sioris />
-            </Route>
-            <Route path={`${match.path}/theinkeylist`}>
-              <TheInkeyList />
-            </Route>
-            <Route path={`${match.path}/theordinary`}>
-              <TheOrdinary />
-            </Route>
-          </Switch>
-        </Router>
-      </div>
+    <main className="flex">
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path={`${match.path}/fav`}>
+            <Favourites />
+          </Route>
+          <Route path={`${match.path}/joseon`}>
+            <BeautyOfJoseon />
+          </Route>
+          <Route path={`${match.path}/cosrx`}>
+            <Cosrx />
+          </Route>
+          <Route path={`${match.path}/fresh`}>
+            <Fresh />
+          </Route>
+          <Route path={`${match.path}/haruharu`}>
+            <HaruHaru />
+          </Route>
+          <Route path={`${match.path}/imfrom`}>
+            <ImFrom />
+          </Route>
+          <Route path={`${match.path}/laneige`}>
+            <Laneige />
+          </Route>
+          <Route path={`${match.path}/makeprem`}>
+            <MakePrem />
+          </Route>
+          <Route path={`${match.path}/paulaschoice`}>
+            <PaulasChoice />
+          </Route>
+          <Route path={`${match.path}/sioris`}>
+            <Sioris />
+          </Route>
+          <Route path={`${match.path}/theinkeylist`}>
+            <TheInkeyList />
+          </Route>
+          <Route path={`${match.path}/theordinary`}>
+            <TheOrdinary />
+          </Route>
+        </Switch>
+      </Router>
     </main>
   );
 }

@@ -24,7 +24,7 @@ const navigationItems: NavigationItem[] = [
 
 export default function Navbar() {
   return (
-    <div className="hidden md:flex md:flex-col md:px-6 md:py-20 lg:px-8 lg:py-28">
+    <div className="hidden w-64 md:flex md:flex-col md:px-6 md:py-20 lg:px-8 lg:py-28">
       <div className="flex flex-col flex-grow">
         <div className="flex items-center flex-shrink-0">
           <div className="flex-1 text-base text-pine-300 font-bold">
