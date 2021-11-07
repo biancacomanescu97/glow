@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="block z-10">
+    <main className="block z-10 overflow-x-hidden">
       <div className="relative inset-0 overflow-hidden h-screen w-screen">
         <img
           className="object-cover h-screen w-screen"
