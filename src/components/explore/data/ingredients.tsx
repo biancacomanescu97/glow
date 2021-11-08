@@ -66,21 +66,31 @@ const Mugwort: Ingredient = {
 
 const teas: Ingredient[] = [BT, Mugwort, GT];
 
-// const CICA: Ingredient = {
-//   name: "Centella asiatica (CICA)",
-//   href: "CICA",
-//   description: ["To be added"]
-// };
+const CICA: Ingredient = {
+  name: "Centella asiatica",
+  href: "CICA",
+  imgUrl: "/assets/img/explore/Cica.png",
+  imgAlt: "Centella asiatica (CICA)",
+  description: ["To be added"]
+};
 
-// const GINSENG: Ingredient = {
-//   name: "Ginseng",
-//   href: "GINSENG",
-//   description: ["very high levels of vitamins, minerals, and antioxidants, as well as anti-aging properties",
-//   "bioactive compounds: saponins, pantothenic acid, polysaccharides, and vitamins B1, B2, and B12",
-//   "saponins help prevent UV-caused hyperpigmentation and wrinkles",
-//   "pantothenic acid helps retain skin’s moisture and calm inflammation"]
-// };
+const Ginseng: Ingredient = {
+  name: "Ginseng",
+  href: "Ginseng",
+  imgUrl: "/assets/img/explore/Ginseng.png",
+  imgAlt: "Ginseng",
+  description: ["To be added"]
+};
 
+const Propolis: Ingredient = {
+  name: "Propolis",
+  href: "Propolis",
+  imgUrl: "/assets/img/explore/Propolis.png",
+  imgAlt: "Propolis",
+  description: ["To be added"]
+};
+
+const power: Ingredient[] = [CICA, Ginseng, Propolis];
 
 
 const A: Ingredient = {
@@ -112,4 +122,4 @@ const abc: Ingredient[] = [A, B, C];
 
 // const ingredients: Ingredient[] = [AHA, BHA, PHA, A, B, C];
 
-export {exfoliants, abc, teas};
+export {abc, exfoliants, power, teas};
