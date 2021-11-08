@@ -5,6 +5,7 @@ import Explore from "./components/explore/Explore";
 import Routine from "./components/routine/Routine";
 import Footer from "./components/footer/Footer";
 import Reviews from "./components/reviews/Reviews";
+import AHA from "./components/explore/exfoliants/AHA";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/explore">
           <Explore />
+        </Route>
+        <Route path="/AHA">
+          <AHA />
         </Route>
         <Route path="/reviews">
           <Reviews />
