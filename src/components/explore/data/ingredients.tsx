@@ -63,27 +63,33 @@ const exfoliants: Ingredient[] = [AHA, BHA, PHA];
 
 
 
-// const A: Ingredient = {
-//   name: "Retinoids/Retinol (Vitamin A)",
-//   href: "A",
-//   description: ["To be added"]
-// };
+const A: Ingredient = {
+  name: "Retinoids/Retinol (Vitamin A)",
+  href: "A",
+  imgUrl: "/assets/img/explore/A.png",
+  imgAlt: "Retinoids/Retinol (Vitamin A)",
+  description: ["To be added"]
+};
 
-// const B: Ingredient = {
-//   name: "Niacinamide (Vitamin B)",
-//   href: "B",
-//   description: ["To be added"]
-// };
+const B: Ingredient = {
+  name: "Niacinamide (Vitamin B)",
+  href: "B",
+  imgUrl: "/assets/img/explore/B.png",
+  imgAlt: "Niacinamide (Vitamin B)",
+  description: ["To be added"]
+};
 
-// const C: Ingredient = {
-//   name: "Vitamin C",
-//   href: "C",
-//   description: ["To be added"]
-// };
+const C: Ingredient = {
+  name: "Ascorbic acid (Vitamin C)",
+  href: "C",
+  imgUrl: "/assets/img/explore/C.png",
+  imgAlt: "Ascorbic acid (Vitamin C)",
+  description: ["To be added"]
+};
 
-// const abc: Ingredient[] = [A, B, C];
+const abc: Ingredient[] = [A, B, C];
 
 
 // const ingredients: Ingredient[] = [AHA, BHA, PHA, A, B, C];
 
-export default exfoliants;
+export {exfoliants, abc};
