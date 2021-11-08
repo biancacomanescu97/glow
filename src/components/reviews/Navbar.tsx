@@ -5,21 +5,21 @@ type NavigationItem = {
   href: string;
 };
 
-const reviewsPath = "/reviews/";
+const reviewsPath = "/reviews";
 
 const navigationItems: NavigationItem[] = [
-  { name: "All time favourites", href: "fav"},
-  { name: "Beauty of Joseon", href: "joseon"},
-  { name: "Cosrx", href: "cosrx"},
-  { name: "Fresh", href: "fresh"},
-  { name: "HaruHaru", href: "haruharu"},
-  { name: "I’m From", href: "imfrom"},
-  { name: "Laneige", href: "laneige"},
-  { name: "Make P:rem", href: "makeprem"},
-  { name: "Paula's Choice", href: "paulaschoice"},
-  { name: "Sioris", href: "sioris"},
-  { name: "The Inkey List", href: "theinkeylist"},
-  { name: "The Ordinary", href: "theordinary"},
+  { name: "All time favourites", href: ""},
+  { name: "Beauty of Joseon", href: "/joseon"},
+  { name: "Cosrx", href: "/cosrx"},
+  { name: "Fresh", href: "/fresh"},
+  { name: "HaruHaru", href: "/haruharu"},
+  { name: "I’m From", href: "/imfrom"},
+  { name: "Laneige", href: "/laneige"},
+  { name: "Make P:rem", href: "/makeprem"},
+  { name: "Paula's Choice", href: "/paulaschoice"},
+  { name: "Sioris", href: "/sioris"},
+  { name: "The Inkey List", href: "/theinkeylist"},
+  { name: "The Ordinary", href: "/theordinary"},
 ];
 
 export default function Navbar() {
