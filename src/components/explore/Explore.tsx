@@ -1,31 +1,26 @@
+import { Link } from "react-router-dom";
 import exfoliants from "./data/ingredients";
 
 export default function Explore() {
   return (
     <div className="max-w-full">
-      {/* Not as harsh as you may think */}
-      <div className="bg-floralwhite-100">
-        <h1 className="pt-10 flex align-middle justify-center text-floralwhite-300 text-md">
-          Not as harsh as they sound
+      <div className="py-16">
+        <h1 className="flex align-middle justify-center text-propolis text-md">
+          Chemical exfoliants
         </h1>
-        <div className="px-40 pt-10 pb-20 grid grid-cols-3 gap-10">
+        <h2 className="flex animate-pulse-bg-once align-middle justify-center text-magenta text-opacity-70 text-sm">
+          Not as harsh as they sound
+        </h2>
+        <div className="grid grid-col-1 lg:grid-cols-3 gap-10 px-20 py-20">
           {exfoliants.map((ingredient) => (
             <div className="relative flex align-middle justify-center">
-              <img
-                className="object-cover rounded-t-full"
-                src="/assets/img/explore/Alpha Hydroxy Acid (AHA).jpg"
-                alt="Background image"
-              />
-              {/* <div className="absolute bg-pine h-50 bg-opacity-30">
-                <div className="text-md text-pine-700 align-middle justify-center">
-                  {ingredient.name}
-                </div>
-                <ul role="list" className="space-y-2 text-sm">
-                  {ingredient.description.map((item) => (
-                    <li>{item}</li>
-                  ))}
-                </ul>
-              </div> */}
+              <Link to={ingredient.href}>
+                <img
+                  className="object-cover rounded-t-full"
+                  src={ingredient.imgUrl}
+                  alt={ingredient.imgAlt}
+                />
+              </Link>
             </div>
           ))}
         </div>
