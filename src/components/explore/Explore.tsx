@@ -12,13 +12,13 @@ export default function Explore() {
           Not as harsh as they sound
         </h2>
         <div className="grid grid-col-1 lg:grid-cols-3 gap-10 px-20 py-20">
-          {exfoliants.map((ingredient) => (
+          {exfoliants.map((item) => (
             <div className="relative flex align-middle justify-center">
-              <Link to={ingredient.href}>
+              <Link to={item.href}>
                 <img
                   className="object-cover rounded-t-full"
-                  src={ingredient.imgUrl}
-                  alt={ingredient.imgAlt}
+                  src={item.imgUrl}
+                  alt={item.imgAlt}
                 />
               </Link>
             </div>
