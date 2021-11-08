@@ -1,8 +1,6 @@
-import { Disclosure, Menu } from "@headlessui/react";
-import { BellIcon, MenuIcon, XIcon } from "@heroicons/react/outline";
+import { Disclosure } from "@headlessui/react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-router-dom";
-
-import User from "./user/User";
 
 type NavigationItem = {
   name: string;
@@ -29,7 +27,7 @@ export default function Navbar() {
             <div className="relative flex z-0 w-full items-center justify-between">
               {/* Mobile menu button */}
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-pine-200 hover:text-citron-10 hover:bg-pine-200 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-pine-100">
+                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-royal-700 hover:text-royal-100 hover:bg-royal-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-royal-100">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
@@ -40,7 +38,7 @@ export default function Navbar() {
               </div>
 
               {/* Header title */}
-              <div className="flex flex-auto items-center justify-center text-2xl font-bold text-pine-300 sm:items-stretch sm:justify-start">
+              <div className="flex flex-auto items-center justify-center font-bold text-royal-700 sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <Link
                     className="block lg:hidden w-auto"
@@ -64,13 +62,10 @@ export default function Navbar() {
                     <Link
                       key={item.name}
                       to={item.href}
-                      className={classNames(
-                        item.current
-                          ? "text-pine-200"
-                          : "text-pine-300 transition duration-500 ease-in-out border-b border-floralwhite-100 hover:border-pine-100",
-                        "px-5 py-2 text-sm font-medium"
-                      )}
-                      aria-current={item.current ? "page" : undefined}>
+                      className="text-royal-600 px-5 py-2 text-sm font-medium
+                      transition duration-500 ease-in-out border-b border-floralwhite-100 
+                      hover:border-royal-400"
+                      >
                       {item.name}
                     </Link>
                   ))}
@@ -90,13 +85,9 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     to={item.href}
-                    className={classNames(
-                      item.current
-                        ? "bg-citron-900 text-pine-200"
-                        : "text-pine-200 hover:bg-citron-400 hover:text-pine-200",
-                      "block px-3 py-2 rounded-md text-base font-medium"
-                    )}
-                    aria-current={item.current ? "page" : undefined}>
+                    className="block text-royal-600 px-3 py-2 text-base font-medium
+                    hover:text-royal-200"
+                    >
                     {item.name}
                   </Link>
                 ))}

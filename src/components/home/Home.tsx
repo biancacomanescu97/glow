@@ -8,7 +8,7 @@ export default function Home() {
           alt="Background image"
         />
       </div>
-      <div className="animate-pulse-bg-once absolute top-64 right-32 text-pine-200 text-right italic tracking-wide font-thin">
+      <div className="animate-pulse-bg-once absolute top-64 right-32 text-royal-600 text-right italic tracking-wide font-thin">
         <div className="">Life is pretty complicated at times</div>
         <div className="animate-pulse-bg-once">Skincare doesn't have to be</div>
       </div>
