@@ -26,7 +26,7 @@ export default function Reviews() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path={`${match.path}`}>
+          <Route exact path={`${match.path}`}>
             <Favourites />
           </Route>
           <Route path={`${match.path}/joseon`}>
