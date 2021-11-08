@@ -4,7 +4,7 @@ export default function Home() {
       <div className="relative inset-0 overflow-hidden h-screen w-screen">
         <img
           className="object-cover h-screen w-screen"
-          src="/assets/img/home/bg-floralwhite-100.jpg"
+          src="/assets/img/home/bg.png"
           alt="Background image"
         />
       </div>
