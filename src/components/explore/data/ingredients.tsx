@@ -40,11 +40,31 @@ const PHA: Ingredient = {
 const exfoliants: Ingredient[] = [AHA, BHA, PHA];
 
 
-// const BT: Ingredient = {
-//   name: "Black Tea",
-//   href: "BT",
-//   description: ["To be added"]
-// };
+const BT: Ingredient = {
+  name: "Black Tea",
+  href: "BT",
+  imgUrl: "/assets/img/explore/Black Tea.png",
+  imgAlt: "Black Tea",
+  description: ["To be added"]
+};
+
+const GT: Ingredient = {
+  name: "Green Tea",
+  href: "GT",
+  imgUrl: "/assets/img/explore/Green Tea.png",
+  imgAlt: "Green Tea",
+  description: ["To be added"]
+};
+
+const Mugwort: Ingredient = {
+  name: "Mugwort",
+  href: "Mugwort",
+  imgUrl: "/assets/img/explore/Mugwort.png",
+  imgAlt: "Mugwort",
+  description: ["To be added"]
+};
+
+const teas: Ingredient[] = [BT, Mugwort, GT];
 
 // const CICA: Ingredient = {
 //   name: "Centella asiatica (CICA)",
@@ -92,4 +112,4 @@ const abc: Ingredient[] = [A, B, C];
 
 // const ingredients: Ingredient[] = [AHA, BHA, PHA, A, B, C];
 
-export {exfoliants, abc};
+export {exfoliants, abc, teas};
