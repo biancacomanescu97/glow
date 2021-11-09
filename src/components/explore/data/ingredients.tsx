@@ -65,7 +65,12 @@ const Mugwort: Ingredient = {
   href: "mugwort",
   imgUrl: "/assets/img/explore/Mugwort.png",
   imgAlt: "Mugwort",
-  description: ["To be added"]
+  description: ["potent ingredient that calms inflamed skin and repairs the skin barrier",
+  "antibacterial, antifungal, and anti-inflammatory properties",
+  "antioxidants that can prevent signs of premature aging from UV damage",
+  "can be consumed as a tea to ease menstrual cramps, stimulate appetite, or relieve stomach discomfort",
+  "is a member of the ragweed family which can potentially cause allergies for some",
+  "for pregnant women, mugwort is definitely not recommended"]
 };
 
 const teas: Ingredient[] = [BT, Mugwort, GT];

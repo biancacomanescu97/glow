@@ -11,6 +11,7 @@ import PHA from "./components/explore/exfoliants/PHA";
 import Ginseng from "./components/explore/powerhouses/Ginseng";
 import Propolis from "./components/explore/powerhouses/Propolis";
 import GreenTea from "./components/explore/teas/GreenTea";
+import Mugwort from "./components/explore/teas/Mugwort";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         </Route>
         <Route path="/greentea">
           <GreenTea />
+        </Route>
+        <Route path="/mugwort">
+          <Mugwort />
         </Route>
         <Route path="/reviews">
           <Reviews />
