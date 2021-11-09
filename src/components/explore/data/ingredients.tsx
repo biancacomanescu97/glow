@@ -8,7 +8,7 @@ type Ingredient = {
 
 const AHA: Ingredient = {
   name: "Alpha Hydroxy Acid (AHA)",
-  href: "AHA",
+  href: "aha",
   imgUrl: "/assets/img/explore/AHA.png",
   imgAlt: "Alpha Hydroxy Acid (AHA)",
   description: ["fruit and plant extracts derived chemical exfoliants", 
@@ -18,7 +18,7 @@ const AHA: Ingredient = {
 
 const BHA: Ingredient = {
   name: "Beta Hydroxy Acid (BHA)",
-  href: "BHA",
+  href: "bha",
   imgUrl: "/assets/img/explore/BHA.png",
   imgAlt: "Beta Hydroxy Acid (BHA)",
   description: ["oil-soluble acids that can reach into the oiliest part of our skin, like our hair follicles and pores",
@@ -29,7 +29,7 @@ const BHA: Ingredient = {
 
 const PHA: Ingredient = {
   name: "Polyhydroxy Acid (PHA)",
-  href: "PHA",
+  href: "pha",
   imgUrl: "/assets/img/explore/PHA.png",
   imgAlt: "Polyhydroxy Acid (PHA)",
   description: ["unlike AHAs, PHAs have larger molecular sizes, which makes them gentle and wonderful alternatives",
@@ -42,7 +42,7 @@ const exfoliants: Ingredient[] = [AHA, BHA, PHA];
 
 const BT: Ingredient = {
   name: "Black Tea",
-  href: "BT",
+  href: "blacktea",
   imgUrl: "/assets/img/explore/Black Tea.png",
   imgAlt: "Black Tea",
   description: ["To be added"]
@@ -50,7 +50,7 @@ const BT: Ingredient = {
 
 const GT: Ingredient = {
   name: "Green Tea",
-  href: "GT",
+  href: "greentea",
   imgUrl: "/assets/img/explore/Green Tea.png",
   imgAlt: "Green Tea",
   description: ["To be added"]
@@ -58,7 +58,7 @@ const GT: Ingredient = {
 
 const Mugwort: Ingredient = {
   name: "Mugwort",
-  href: "Mugwort",
+  href: "mugwort",
   imgUrl: "/assets/img/explore/Mugwort.png",
   imgAlt: "Mugwort",
   description: ["To be added"]
@@ -68,7 +68,7 @@ const teas: Ingredient[] = [BT, Mugwort, GT];
 
 const CICA: Ingredient = {
   name: "Centella asiatica",
-  href: "CICA",
+  href: "centellaasiatica",
   imgUrl: "/assets/img/explore/Cica.png",
   imgAlt: "Centella asiatica (CICA)",
   description: ["To be added"]
@@ -76,7 +76,7 @@ const CICA: Ingredient = {
 
 const Ginseng: Ingredient = {
   name: "Ginseng",
-  href: "Ginseng",
+  href: "ginseng",
   imgUrl: "/assets/img/explore/Ginseng.png",
   imgAlt: "Ginseng",
   description: ["To be added"]
@@ -84,7 +84,7 @@ const Ginseng: Ingredient = {
 
 const Propolis: Ingredient = {
   name: "Propolis",
-  href: "Propolis",
+  href: "propolis",
   imgUrl: "/assets/img/explore/Propolis.png",
   imgAlt: "Propolis",
   description: ["To be added"]
@@ -95,7 +95,7 @@ const power: Ingredient[] = [CICA, Ginseng, Propolis];
 
 const A: Ingredient = {
   name: "Retinoids/Retinol (Vitamin A)",
-  href: "A",
+  href: "vitamina",
   imgUrl: "/assets/img/explore/A.png",
   imgAlt: "Retinoids/Retinol (Vitamin A)",
   description: ["To be added"]
@@ -103,7 +103,7 @@ const A: Ingredient = {
 
 const B: Ingredient = {
   name: "Niacinamide (Vitamin B)",
-  href: "B",
+  href: "vitaminb",
   imgUrl: "/assets/img/explore/B.png",
   imgAlt: "Niacinamide (Vitamin B)",
   description: ["To be added"]
@@ -111,15 +111,12 @@ const B: Ingredient = {
 
 const C: Ingredient = {
   name: "Ascorbic acid (Vitamin C)",
-  href: "C",
+  href: "vitaminc",
   imgUrl: "/assets/img/explore/C.png",
   imgAlt: "Ascorbic acid (Vitamin C)",
   description: ["To be added"]
 };
 
 const abc: Ingredient[] = [A, B, C];
-
-
-// const ingredients: Ingredient[] = [AHA, BHA, PHA, A, B, C];
 
 export {abc, exfoliants, power, teas};
