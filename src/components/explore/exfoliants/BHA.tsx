@@ -6,8 +6,8 @@ export default function BHA() {
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10">
         <div className="px-16 py-10">
           <img
-            className="object-cover opacity-80 p-10"
-            src="/assets/img/explore/BHA.png"
+            className="object-cover p-10"
+            src="/assets/img/explore/bha.png"
             alt="Beta Hydroxy Acid (BHA)"
           />
         </div>
