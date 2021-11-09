@@ -27,7 +27,7 @@ export default function Explore() {
       </div>
 
       <div className="pb-16">
-        <h1 className="flex align-middle justify-center text-royal-300 text-md">
+        <h1 className="flex align-middle justify-center text-royal-10 text-md">
           POWER HOUSES
         </h1>
         <div className="grid grid-col-1 lg:grid-cols-3 gap-10 px-20 py-20">
@@ -35,7 +35,7 @@ export default function Explore() {
             <div className="relative flex align-middle justify-center">
               <Link to={item.href}>
                 <img
-                  className="object-cover rounded-full"
+                  className="object-cover"
                   src={item.imgUrl}
                   alt={item.imgAlt}
                 />
@@ -54,7 +54,7 @@ export default function Explore() {
             <div className="relative flex align-middle justify-center">
               <Link to={item.href}>
                 <img
-                  className="object-cover opacity-80"
+                  className="object-cover"
                   src={item.imgUrl}
                   alt={item.imgAlt}
                 />
