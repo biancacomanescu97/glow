@@ -9,7 +9,7 @@ type Ingredient = {
 const AHA: Ingredient = {
   name: "Alpha Hydroxy Acid (AHA)",
   href: "aha",
-  imgUrl: "/assets/img/explore/AHA.png",
+  imgUrl: "/assets/img/explore/aha.png",
   imgAlt: "Alpha Hydroxy Acid (AHA)",
   description: ["fruit and plant extracts derived chemical exfoliants", 
   "water-soluble, which means that they work on the surface layer of the skin", 
@@ -19,7 +19,7 @@ const AHA: Ingredient = {
 const BHA: Ingredient = {
   name: "Beta Hydroxy Acid (BHA)",
   href: "bha",
-  imgUrl: "/assets/img/explore/BHA.png",
+  imgUrl: "/assets/img/explore/bha.png",
   imgAlt: "Beta Hydroxy Acid (BHA)",
   description: ["oil-soluble acids that can reach into the oiliest part of our skin, like our hair follicles and pores",
   "soak up the excess buildup of sebum and oils from within the pore (that would otherwise clog up and become a pimple)",
@@ -30,7 +30,7 @@ const BHA: Ingredient = {
 const PHA: Ingredient = {
   name: "Polyhydroxy Acid (PHA)",
   href: "pha",
-  imgUrl: "/assets/img/explore/PHA.png",
+  imgUrl: "/assets/img/explore/pha.png",
   imgAlt: "Polyhydroxy Acid (PHA)",
   description: ["unlike AHAs, PHAs have larger molecular sizes, which makes them gentle and wonderful alternatives",
   "are considered as the next generation of AHAs",
