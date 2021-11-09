@@ -23,32 +23,42 @@ export default function GreenTea() {
           <div className="block">
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain green tea</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">Peach & Lily</p>
-                  <p className="uppercase flex-initial font-bold">Benton</p>
-                  <p className="uppercase flex-initial font-bold">Isntree</p>
-                  <p className="uppercase flex-initial font-bold">Amorepacific</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Peach & Lily</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Matcha Pudding Antioxidant Cream</p>
-                  <p className="font-bold">Deep Green Tea Toner</p>
-                  <p className="font-bold">Isntree</p>
-                  <p className="font-bold">Single Vintage Extract Essence </p>
                 </div>
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Benton</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Deep Green Tea Toner</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Isntree</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Green Tea Fresh Toner</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Amorepacific</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Single Vintage Extract Essence</p>
+                </div> 
               </div>
             </div>
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Personal recommendations</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">Beauty of Joseon</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Beauty of Joseon</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Calming Serum</p>
-                  <ul role="list" className="flex-initial list-none list-inside space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                    <li>also contains panthenol</li>
-                  </ul>
+                  <p>also contains panthenol</p>
                 </div>
               </div>
             </div>

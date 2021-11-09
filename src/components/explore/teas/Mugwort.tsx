@@ -23,34 +23,43 @@ export default function Mugwort() {
           <div className="block">
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain mugwort</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">I’m From</p>
-                  <p className="uppercase flex-initial font-bold">I’m From</p>
-                  <p className="uppercase flex-initial font-bold">Holika Holika</p>
-                  <p className="uppercase flex-initial font-bold">Round Lab</p>
-                  <p className="uppercase flex-initial font-bold">Isntree</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>I’m From</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Mugwort Mask</p>
                   <p className="font-bold">Mugwort Cream</p>
-                  <p className="font-bold">Pure Essence Mugwort Foam Cleanser</p>
-                  <p className="font-bold">Mugwort Calming Cream</p>
-                  <p className="font-bold">Spot Saver Mugwort Ampoule</p>
                 </div>
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Holika Holika</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Pure Essence Mugwort Foam Cleanser</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Round Lab</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Mugwort Calming Cream</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Isntree</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Spot Saver Mugwort Ampoule</p>
+                </div> 
               </div>
             </div>
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Personal recommendations</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">I’m From</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>I’m From</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Mugwort Essence</p>
-                  <ul role="list" className="flex-initial list-none list-inside space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                    <li>contains only one ingredient: artemisia princeps extract</li>
-                  </ul>
+                  <p>contains only one ingredient: artemisia princeps extract</p>
                 </div>
               </div>
             </div>
