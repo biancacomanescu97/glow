@@ -120,7 +120,7 @@ const A: Ingredient = {
 const B: Ingredient = {
   name: "Niacinamide (Vitamin B)",
   href: "vitaminb",
-  imgUrl: "/assets/img/explore/B.png",
+  imgUrl: "/assets/img/explore/B(1).png",
   imgAlt: "Niacinamide (Vitamin B)",
   description: ["To be added"]
 };

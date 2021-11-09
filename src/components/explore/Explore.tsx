@@ -46,7 +46,7 @@ export default function Explore() {
       </div> 
 
       <div className="pb-16">
-        <h1 className="flex align-middle justify-center text-propolis-400 text-md">
+        <h1 className="flex align-middle justify-center text-royal-600 text-md">
           THE ABCs
         </h1>
         <div className="grid grid-col-1 lg:grid-cols-3 gap-10 px-20 py-20">
