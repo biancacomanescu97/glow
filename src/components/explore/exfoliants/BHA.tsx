@@ -40,54 +40,46 @@ export default function BHA() {
           </ul>
         </div>
         <div className="block p-16">
-          <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain glycolic acid</h1>
-          <ul role="list" className="list-none list-inside p-3 space-y-1 text-sm text-royal-700 text-opacity-80 tracking-tight">
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Farmacy</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-7 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">Deep Sweep 2% BHA BHA Pore Cleaning Toner</li>
-                  <li>most gentle from them all</li>
-                  <li>contains papaya extract</li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Naturium</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-4 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">BHA Liquid Exfoliant 2%</li>
-                  <li>encapsulated SA (less chances of irritation in the skin by slowly releasing active ingredients)</li>
-                  <li>fruit acid: caviar</li>
-                  <li>contains  citrus, which helps with brightening</li>
-                  <li>pore cleansing by soaking up a cotton pad onto the nose for a little DIY mask</li>
-                </ul>
-              </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Beauty Pie</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-3 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">Oxygen Instant Facial Refueling Mask</li>
-                  <li>if used as a mask; wash it off and then mosturize</li>
-                  <li>if overnight; put after mosturizer</li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+          <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain salicylic acid</h1>
+          <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+            <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+              <p>Farmacy</p>
+            </div>
+            <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+              <p className="font-bold">Deep Sweep 2% BHA Pore Cleaning Toner</p>
+              <p>most gentle from them all</p>
+              <p>contains papaya extract</p>
+            </div>
+            <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+              <p>Naturium</p>
+            </div>
+            <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+              <p className="font-bold">BHA Liquid Exfoliant 2%</p>
+              <p>encapsulated SA (less chances of irritation in the skin by slowly releasing active ingredients)</p>
+              <p>fruit acid: caviar</p>
+              <p>contains  citrus, which helps with brightening</p>
+              <p>pore cleansing by soaking up a cotton pad onto the nose for a little DIY mask</p>
+            </div> 
+            <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+              <p>Beauty Pie</p>
+            </div>
+            <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+              <p className="font-bold">Oxygen Instant Facial Refueling Mask</p>
+              <p>if used as a mask; wash it off and then mosturize</p>
+              <p>if overnight; put after mosturizer</p>
+            </div>  
+          </div>
           <h1 className="pt-10 text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Personal recommendations</h1>
-          <ul role="list" className="list-none list-inside p-3 space-y-1 text-sm text-royal-700 text-opacity-80 tracking-tight">
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Paula’s Choice</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-4 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">BHA Liquid Exfoliant 2%</li>
-                  <li>I keep buying it since I first discovered it</li>
-                  <li>contains green tea</li>
-                </ul>
-              </div>
-            </li>
-          </ul>
+          <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+            <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+              <p>Paula’s Choice</p>
+            </div>
+            <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+              <p className="font-bold">BHA Liquid Exfoliant 2%</p>
+              <p>I keep buying it since I first discovered it</p>
+              <p>contains green tea</p>
+            </div>
+          </div>
         </div>
 
         {/*Willowbark */}

@@ -21,63 +21,50 @@ export default function PHA() {
             </ul>
           </div>
           <div className="block p-10">
-          <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain glycolic acid</h1>
-          <ul role="list" className="list-none list-inside p-3 space-y-1 text-sm text-royal-700 text-opacity-80 tracking-tight">
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Some By Mi</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-6 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">AHA BHA PHA 30 Days Miracle Toner</li>
-                  <li>very soothing</li>
-                  <li>shake before use</li>
-                </ul>
+            <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain PHA</h1>
+            <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Some By Mi</p>
               </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Naturium</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-9 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">PHA Topical Acid 12%</li>
-                  <li>also contains mandelic acid</li>
-                </ul>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">AHA BHA PHA 30 Days Miracle Toner</p>
+                <p>very soothing</p>
+                <p>shake before use</p>
               </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Purito</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-16 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">ABP Triple Synergy Liquid</li>
-                  <li>long term progress, not an instant effect</li>
-                </ul>
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Naturium</p>
               </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Farmacy</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-12 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">Honeymoon Glow AHA Resurfacing Night Serum</li>
-                </ul>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">PHA Topical Acid 12%</p>
+                <p>also contains mandelic acid</p>
               </div>
-            </li>
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Peach & Lily</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-4 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">Super Reboot Resurfacing Mask</li>
-                </ul>
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Purito</p>
               </div>
-            </li>
-            
-            <li>
-              <div className="flex">
-                <b className="uppercase flex-initial">Glow Recipe</b>
-                <ul role="list" className="flex-initial list-none list-inside pl-3 space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                  <li className="font-bold">Watermelon Glow PHA + BHA Pore Tight Toner</li>
-                </ul>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">ABP Triple Synergy Liquid</p>
+                <p>long term progress, not an instant effect</p>
               </div>
-            </li>
-          </ul>
-        </div>
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Farmacy</p>
+              </div>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">Honeymoon Glow AHA Resurfacing Night Serum</p>
+              </div>
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Peach & Lily</p>
+              </div>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">Super Reboot Resurfacing Mask</p>
+              </div>
+              <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                <p>Glow Recipe</p>
+              </div>
+              <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                <p className="font-bold">Watermelon Glow PHA + BHA Pore Tight Toner</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
