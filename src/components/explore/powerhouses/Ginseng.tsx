@@ -52,7 +52,6 @@ export default function Ginseng() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
