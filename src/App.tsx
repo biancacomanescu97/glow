@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import Reviews from "./components/reviews/Reviews";
 import AHA from "./components/explore/exfoliants/AHA";
 import BHA from "./components/explore/exfoliants/BHA";
+import PHA from "./components/explore/exfoliants/PHA";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/bha">
           <BHA />
+        </Route>
+        <Route path="/pha">
+          <PHA />
         </Route>
         <Route path="/reviews">
           <Reviews />
