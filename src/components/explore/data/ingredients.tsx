@@ -51,9 +51,13 @@ const BT: Ingredient = {
 const GT: Ingredient = {
   name: "Green Tea",
   href: "greentea",
-  imgUrl: "/assets/img/explore/Green Tea.png",
+  imgUrl: "/assets/img/explore/GreenTea.png",
   imgAlt: "Green Tea",
-  description: ["To be added"]
+  description: ["great source of antioxidants for your body and skin",
+  "rich in flavonoids, including a unique compound known as EGCG (epigallocatechin-3 gallate)",
+  "calming inflammation and regulating sebum production",
+  "contains tannins, which can act like astringents to reduce the appearance of large pores",
+  "wonderful beverage that helps combat stress, strengthens mental focus, and boosst the immune system."]
 };
 
 const Mugwort: Ingredient = {
