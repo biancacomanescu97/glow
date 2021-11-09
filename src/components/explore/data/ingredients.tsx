@@ -90,7 +90,11 @@ const Propolis: Ingredient = {
   href: "propolis",
   imgUrl: "/assets/img/explore/Propolis.png",
   imgAlt: "Propolis",
-  description: ["To be added"]
+  description: ["is a natural resinous mixture that honeybees produce to construct and repair their hives",
+  "help soothe, moisturize, and soften dry and chapped skin",
+  "has antimicrobial, antiviral, antifungal, and anti-inflammatory properties",
+  "rich source of antioxidants and great for healing wounds",
+  "can help kill off acne-causing bacteria, repair the skin barrier, fight free radical damage, and even regulate sebum production"]
 };
 
 const power: Ingredient[] = [CICA, Ginseng, Propolis];
