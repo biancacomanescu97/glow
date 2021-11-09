@@ -6,6 +6,7 @@ import Routine from "./components/routine/Routine";
 import Footer from "./components/footer/Footer";
 import Reviews from "./components/reviews/Reviews";
 import AHA from "./components/explore/exfoliants/AHA";
+import BHA from "./components/explore/exfoliants/BHA";
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
         <Route path="/explore">
           <Explore />
         </Route>
-        <Route path="/AHA">
+        <Route path="/aha">
           <AHA />
+        </Route>
+        <Route path="/bha">
+          <BHA />
         </Route>
         <Route path="/reviews">
           <Reviews />
