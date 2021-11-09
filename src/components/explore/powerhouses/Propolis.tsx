@@ -23,34 +23,43 @@ export default function Propolis() {
           <div className="block">
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain ginseng</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">Farmacy</p>
-                  <p className="uppercase flex-initial font-bold">Farmacy</p>
-                  <p className="uppercase flex-initial font-bold">Cosrx</p>
-                  <p className="uppercase flex-initial font-bold">Dr. Ceuracle</p>
-                  <p className="uppercase flex-initial font-bold">IUNIK</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Farmacy</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
-                  <p className="font-bold">Honeymoon Glow Serum</p>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Honey Halo Ultra-Hydrating Ceramide Moisturizer</p>
-                  <p className="font-bold">Full Fit Propolis Light Ampoule</p>
-                  <p className="font-bold">Royal Vita Propolis 33 Ampoule</p>
-                  <p className="font-bold">Propolis Vitamin Synergy Serum</p>
+                  <p className="font-bold">Honeymoon Glow Serum</p>
                 </div>
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Cosrx</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Full Fit Propolis Light Ampoule</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Dr. Ceuracle</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Royal Vita Propolis 33 Ampoule</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Iunik</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Propolis Vitamin Synergy Serum</p>
+                </div> 
               </div>
             </div>
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Personal recommendations</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">Beauty of Joseon</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Beauty of Joseon</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Glow Serum</p>
-                  <ul role="list" className="flex-initial list-none list-inside space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                    <li>also contains niacinamide</li>
-                  </ul>
+                  <p>also contains niacinamide</p>
                 </div>
               </div>
             </div>

@@ -23,33 +23,43 @@ export default function Ginseng() {
           <div className="block">
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Products that contain ginseng</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">I’m From</p>
-                  <p className="uppercase flex-initial font-bold">Donginbi</p>
-                  <p className="uppercase flex-initial font-bold">Venn</p>
-                  <p className="uppercase flex-initial font-bold">Beauty of Joseon</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>I’m From</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Ginseng Serum</p>
-                  <p className="font-bold">1899 Single Essence</p>
-                  <p className="font-bold">Age Reversing All-In-One Concentrate</p>
-                  <p className="font-bold">Ginseng Essence Water</p>
                 </div>
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Donginbi</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">1899 Single Essence</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Venn</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Age Reversing All-In-One Concentrate</p>
+                </div> 
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Beauty of Joseon</p>
+                </div>
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
+                  <p className="font-bold">Ginseng Essence Water</p>
+                </div> 
               </div>
             </div>
             <div className="block p-10">
               <h1 className="text-royal-700 text-opacity-90 text-base uppercase font-bold tracking-tighter">Personal recommendations</h1>
-              <div className="flex text-sm text-royal-700 text-opacity-80 tracking-tight">
-                <div className="flex-initial pl-3">
-                  <p className="uppercase flex-initial font-bold">Beauty of Joseon</p>
+              <div className="grid grid-cols-4 p-3 text-sm tracking-tight">
+                <div className="col-span-1 uppercase font-bold text-royal-700 text-opacity-80">
+                  <p>Beauty of Joseon</p>
                 </div>
-                <div className="flex-initial text-royal-700 text-opacity-60 pl-5">
+                <div className="col-span-3 pb-3 text-royal-700 text-opacity-60">
                   <p className="font-bold">Repair Serum</p>
-                  <ul role="list" className="flex-initial list-none list-inside space-y-1 text-sm text-royal-700 text-opacity-60 tracking-tight">
-                    <li>also contains snail mucin</li>
-                  </ul>
-                </div>
+                  <p>also contains snail mucin</p>
+                </div> 
               </div>
             </div>
           </div>
