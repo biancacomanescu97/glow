@@ -79,7 +79,10 @@ const Ginseng: Ingredient = {
   href: "ginseng",
   imgUrl: "/assets/img/explore/Ginseng.png",
   imgAlt: "Ginseng",
-  description: ["To be added"]
+  description: ["very high levels of vitamins, minerals, and antioxidants, as well as anti-aging properties",
+  "bioactive compounds: saponins, pantothenic acid, polysaccharides, and vitamins B1, B2, and B12",
+  "saponins help prevent UV-caused hyperpigmentation and wrinkles",
+  "pantothenic acid helps retain skin’s moisture and calm inflammation"]
 };
 
 const Propolis: Ingredient = {

@@ -8,6 +8,7 @@ import Reviews from "./components/reviews/Reviews";
 import AHA from "./components/explore/exfoliants/AHA";
 import BHA from "./components/explore/exfoliants/BHA";
 import PHA from "./components/explore/exfoliants/PHA";
+import Ginseng from "./components/explore/powerhouses/Ginseng";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         </Route>
         <Route path="/pha">
           <PHA />
+        </Route>
+        <Route path="/ginseng">
+          <Ginseng />
         </Route>
         <Route path="/reviews">
           <Reviews />
