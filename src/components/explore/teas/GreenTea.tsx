@@ -1,21 +1,23 @@
 import {teas} from "../data/ingredients";
 
 export default function GreenTea() {
+  const greentea = teas[2];
+
   return (
     <main className="pb-10">
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10">
         <div className="px-16 py-10">
           <img
-            className="object-cover p-10"
-            src="/assets/img/explore/GreenTea.png"
-            alt="Green Tea"
+            className="object-cover"
+            src={greentea.imgUrl}
+            alt={greentea.imgAlt}
           />
         </div>
         <div className="block py-32">
           <div className="block p-10"> 
             <h1 className="text-royal-700 text-opacity-90 text-lg font-bold tracking-wide">INTRODUCTION</h1>
             <ul role="list" className="list-none list-inside pl-3 space-y-2 text-sm text-royal-700 text-opacity-70 tracking-tight">
-              {teas[2].description.map((item) => (
+              {greentea.description.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
