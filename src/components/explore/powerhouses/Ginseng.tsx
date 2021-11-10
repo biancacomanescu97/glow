@@ -1,21 +1,23 @@
 import {power} from "../data/ingredients";
 
 export default function Ginseng() {
+  const ginseng = power[2];
+
   return (
     <main className="pb-10">
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10">
         <div className="px-16 py-10">
           <img
-            className="object-cover opacity-80 p-10"
-            src="/assets/img/explore/Ginseng.png"
-            alt="Ginseng"
+            className="object-cover"
+            src={ginseng.imgUrl}
+            alt={ginseng.imgAlt}
           />
         </div>
         <div className="block py-32">
           <div className="block p-10"> 
             <h1 className="text-royal-700 text-opacity-90 text-lg font-bold tracking-wide">INTRODUCTION</h1>
             <ul role="list" className="list-none list-inside pl-3 space-y-2 text-sm text-royal-700 text-opacity-70 tracking-tight">
-              {power[2].description.map((item) => (
+              {ginseng.description.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
