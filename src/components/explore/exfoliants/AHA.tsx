@@ -1,21 +1,23 @@
 import {exfoliants} from "../data/ingredients";
 
 export default function AHA() {
+  const aha = exfoliants[0];
+
   return (
     <main className="">
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10">
         <div className="px-16 py-10">
           <img
-            className="object-cover p-10"
-            src="/assets/img/explore/aha.png"
-            alt="Alpha Hydroxy Acid (AHA)"
+            className="object-cover"
+            src={aha.imgUrl}
+            alt={aha.imgAlt}
           />
         </div>
         <div className="block p-32">
           <div className="block py-32"> 
             <h1 className="text-royal-700 text-lg font-bold tracking-wide">INTRODUCTION</h1>
             <ul role="list" className="list-none list-inside pl-3 space-y-2 text-sm text-royal-700 text-opacity-80 tracking-tight">
-              {exfoliants[0].description.map((item) => (
+              {aha.description.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>

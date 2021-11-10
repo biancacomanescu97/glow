@@ -1,21 +1,23 @@
 import {exfoliants} from "../data/ingredients";
 
 export default function BHA() {
+  const bha = exfoliants[1];
+
   return (
     <main className="">
       <div className="grid grid-col-1 lg:grid-cols-2 gap-10">
         <div className="px-16 py-10">
           <img
-            className="object-cover p-10"
-            src="/assets/img/explore/bha.png"
-            alt="Beta Hydroxy Acid (BHA)"
+            className="object-cover"
+            src={bha.imgUrl}
+            alt={bha.imgAlt}
           />
         </div>
         <div className="block p-28">
           <div className="block py-32"> 
             <h1 className="text-royal-700 text-opacity-90 text-lg font-bold tracking-wide">INTRODUCTION</h1>
             <ul role="list" className="list-none list-inside pl-3 space-y-2 text-sm text-royal-700 text-opacity-70 tracking-tight">
-              {exfoliants[1].description.map((item) => (
+              {bha.description.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
