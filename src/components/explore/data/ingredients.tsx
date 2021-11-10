@@ -43,7 +43,7 @@ const exfoliants: Ingredient[] = [AHA, BHA, PHA];
 const BT: Ingredient = {
   name: "Black Tea",
   href: "blacktea",
-  imgUrl: "/assets/img/explore/Black Tea.png",
+  imgUrl: "/assets/img/explore/blacktea.png",
   imgAlt: "Black Tea",
   description: ["To be added"]
 };
@@ -51,7 +51,7 @@ const BT: Ingredient = {
 const GT: Ingredient = {
   name: "Green Tea",
   href: "greentea",
-  imgUrl: "/assets/img/explore/GreenTea.png",
+  imgUrl: "/assets/img/explore/greentea.png",
   imgAlt: "Green Tea",
   description: ["great source of antioxidants for your body and skin",
   "rich in flavonoids, including a unique compound known as EGCG (epigallocatechin-3 gallate)",
@@ -63,7 +63,7 @@ const GT: Ingredient = {
 const Mugwort: Ingredient = {
   name: "Mugwort",
   href: "mugwort",
-  imgUrl: "/assets/img/explore/Mugwort.png",
+  imgUrl: "/assets/img/explore/mugwort.png",
   imgAlt: "Mugwort",
   description: ["potent ingredient that calms inflamed skin and repairs the skin barrier",
   "antibacterial, antifungal, and anti-inflammatory properties",
@@ -73,12 +73,12 @@ const Mugwort: Ingredient = {
   "for pregnant women, mugwort is definitely not recommended"]
 };
 
-const teas: Ingredient[] = [BT, Mugwort, GT];
+const teas: Ingredient[] = [Mugwort, BT, GT];
 
 const CICA: Ingredient = {
   name: "Centella asiatica",
   href: "centellaasiatica",
-  imgUrl: "/assets/img/explore/Cica.png",
+  imgUrl: "/assets/img/explore/cica.png",
   imgAlt: "Centella asiatica (CICA)",
   description: ["To be added"]
 };
@@ -86,7 +86,7 @@ const CICA: Ingredient = {
 const Ginseng: Ingredient = {
   name: "Ginseng",
   href: "ginseng",
-  imgUrl: "/assets/img/explore/Ginseng.png",
+  imgUrl: "/assets/img/explore/ginseng.png",
   imgAlt: "Ginseng",
   description: ["very high levels of vitamins, minerals, and antioxidants, as well as anti-aging properties",
   "bioactive compounds: saponins, pantothenic acid, polysaccharides, and vitamins B1, B2, and B12",
@@ -97,7 +97,7 @@ const Ginseng: Ingredient = {
 const Propolis: Ingredient = {
   name: "Propolis",
   href: "propolis",
-  imgUrl: "/assets/img/explore/Propolis.png",
+  imgUrl: "/assets/img/explore/propolis.png",
   imgAlt: "Propolis",
   description: ["is a natural resinous mixture that honeybees produce to construct and repair their hives",
   "help soothe, moisturize, and soften dry and chapped skin",
@@ -106,13 +106,13 @@ const Propolis: Ingredient = {
   "can help kill off acne-causing bacteria, repair the skin barrier, fight free radical damage, and even regulate sebum production"]
 };
 
-const power: Ingredient[] = [CICA, Ginseng, Propolis];
+const power: Ingredient[] = [Propolis, CICA, Ginseng];
 
 
 const A: Ingredient = {
   name: "Retinoids/Retinol (Vitamin A)",
   href: "vitamina",
-  imgUrl: "/assets/img/explore/A.png",
+  imgUrl: "/assets/img/explore/a.png",
   imgAlt: "Retinoids/Retinol (Vitamin A)",
   description: ["To be added"]
 };
@@ -120,7 +120,7 @@ const A: Ingredient = {
 const B: Ingredient = {
   name: "Niacinamide (Vitamin B)",
   href: "vitaminb",
-  imgUrl: "/assets/img/explore/B(1).png",
+  imgUrl: "/assets/img/explore/b.png",
   imgAlt: "Niacinamide (Vitamin B)",
   description: ["To be added"]
 };
@@ -128,7 +128,7 @@ const B: Ingredient = {
 const C: Ingredient = {
   name: "Ascorbic acid (Vitamin C)",
   href: "vitaminc",
-  imgUrl: "/assets/img/explore/C.png",
+  imgUrl: "/assets/img/explore/c.png",
   imgAlt: "Ascorbic acid (Vitamin C)",
   description: ["To be added"]
 };

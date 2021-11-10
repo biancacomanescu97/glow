@@ -15,7 +15,7 @@ export default function Ginseng() {
           <div className="block p-10"> 
             <h1 className="text-royal-700 text-opacity-90 text-lg font-bold tracking-wide">INTRODUCTION</h1>
             <ul role="list" className="list-none list-inside pl-3 space-y-2 text-sm text-royal-700 text-opacity-70 tracking-tight">
-              {power[1].description.map((item) => (
+              {power[2].description.map((item) => (
                 <li>{item}</li>
               ))}
             </ul>
