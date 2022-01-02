@@ -27,7 +27,7 @@ export default function Navbar() {
     <div className="hidden w-64 md:flex md:flex-col md:px-6 md:py-20 lg:px-8 lg:py-28">
       <div className="flex flex-col flex-grow">
         <div className="flex items-center flex-shrink-0">
-          <div className="flex-1 text-base text-pine-300 font-bold">
+          <div className="flex-1 text-base text-royal-700 font-bold">
             BRANDS
           </div>
         </div>
@@ -37,8 +37,8 @@ export default function Navbar() {
               <Link
                 key={item.name}
                 to={`${reviewsPath}${item.href}`}
-                className="flex py-2 text-pine text-sm
-                  transition duration-500 ease-out transform hover:text-pine-200 hover:translate-x-3">
+                className="flex py-2 text-royal-700 text-sm
+                  transition duration-500 ease-out transform hover:text-royal-600 hover:translate-x-3">
                 {item.name}
               </Link>
             ))}
