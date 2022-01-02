@@ -1,6 +1,6 @@
 export default function Routine() {
   return (
-    <main className="w-screen h-screen">
+    <main className="w-screen h-screen p-32">
       <div className="max-w-full mx-auto pb-12 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto lg:px-8 text-justify text-sm font-mediumbg-floralwhite-400 rounded-lg px-5 py-4 sm:px-6">
           Skin type: dry; some oiler tendencies (my T-zone and my nose) in
