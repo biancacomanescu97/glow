@@ -13,7 +13,7 @@ export default function BeautyOfJoseon() {
             <div className="text-sm tracking-tighter text-pine-50">
               <div className="m-20 text-base">
                 <h3 className="font-bold tracking-wide">Benefits</h3>
-                <ul className="list-disc text-sm text-citron text-opacity-50">
+                <ul className="list-disc list-inside text-sm text-citron text-opacity-50">
                   <li>hydrates & nourishes</li>
                   <li>brightens & evens out the complexion</li>
                   <li>
@@ -72,7 +72,7 @@ export default function BeautyOfJoseon() {
             <div className="text-sm tracking-tighter text-propolis">
               <div className="m-20 text-base">
                 <h3 className="font-bold tracking-wide">Benefits</h3>
-                <ul className="list-disc text-sm text-propolis text-opacity-50">
+                <ul className="list-disc list-inside text-sm text-propolis text-opacity-50">
                   <li>hydrates & nourishes</li>
                   <li>brightens & evens out the complexion</li>
                   <li>
@@ -117,7 +117,7 @@ export default function BeautyOfJoseon() {
             <div className="text-sm tracking-tighter text-ginseng">
               <div className="m-20 text-base">
                 <h3 className="font-bold tracking-wide">Benefits</h3>
-                <ul className="list-disc text-sm text-ginseng-400 text-opacity-50">
+                <ul className="list-disc list-inside text-sm text-ginseng-400 text-opacity-50">
                   <li>hydrates & nourishes</li>
                   <li>brightens & evens out the complexion</li>
                   <li>
