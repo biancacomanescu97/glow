@@ -43,6 +43,9 @@ module.exports = {
           800: "#CFD567",
           900: "#CAD057",
         },
+        bg: {
+          DEFAULT: "#F5F5F5",
+        },
         pine: {
           DEFAULT: "#1D2A18",
           50: "#4F7342",
